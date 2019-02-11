@@ -1,0 +1,28 @@
+
+#tabs-con .headerBox{
+    display: inline-block;
+    height:30px;
+    line-height: 30px;
+}
+#tabs-con .headerBox span{
+    padding:0 5px;
+    cursor: pointer;
+}
+#tabs-con .headerBox span.curactive{
+    color:#f00;
+}
+#tabs-con .headerBox span::after{
+    content: '|';
+    display: inline-block;
+    color:#ccc;
+    margin-left:10px;
+}
+#tabs-con .tabContent{
+    margin-top:6px;
+}
+#tabs-con .tabContent .conBox{
+    display: none;
+}
+#tabs-con .tabContent .conBox.curactive{
+    display: block;
+}
